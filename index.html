@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class=header-blue>
+    <title>Ian's Portfolio</title>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        
+        <a class="navbar-brand text-white" href="#"><img src="img/i icon.svg" width="30" height="30" alt=""> Ian McCormack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="intro text-center text-white">Front-end Developer</h1>
+      <h2 class="text-center text-white">Responsive websites and unparalleled user experiences</h2>
+      
+    </div>
+  </head>
+  <body>
+        <div class="container-fluid" id="projects">
+                <div class="row">
+                  <div class="col-lg-4 img-white img-fluid"><img src="img/csi.png" >  
+                  </div>
+                  <div class="col-lg-4 img-art img-fluid"><img src="img/artglass1.png" width="196" height="185">
+                  </div>
+                  <div class="col-lg-4 img-white img-fluid"><img src="img/fpc1.png"> 
+                      
+                </div>
+                
+                <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 img-black img-fluid"><img src="img/nyc1.jpeg" width="226" height="120"> 
+                          </div>
+                          <div class="col-lg-4 img-white img-fluid"><img src="img/autonavan.png" >  
+                           
+                          </div>
+                          <div class="col-lg-4 img-art img-fluid"><img src="img/dflogo.png" width="240" height="135">    
+                        </div>
+                     </div>
+                    </div>
+                    <div class="container" id="aboutme">
+                        
+                            <div class="card-deck">
+                            <div class="col-md-4">
+                                <!-- Bootstrap Card -->
+                                <div class="card border-primary mb-3" style="width:18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Work Ethos</h5>
+                                        <p class="card-text">
+                                            Clean design and ease of navigation are the two most important aspects of website design and creation.
+                                            <br>
+                                            <br>Clean design must extend to the code used to create the site; comments are not only useful, but necessary.
+                                            <br>
+                                            <br>Continued learning through work and personal projects will continue, this is a hobby as well as a job!
+                                            <br>
+                                            <br>
+                                            <br>
+                                        </p>
+                                        <div class="card-footer">
+                                                <small class="text-primary">Work With Me</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3" style="width:18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Front End Developer</h5>
+                                        <p class="card-text">
+                                        Good working knowledge of the Wordress platform, HTML & CSS.
+                                        <br>
+                                        <br>Learning and improving at Javascript & libraries such as Jquery & React.
+                                        <br>
+                                        <br>A little experience with SQl databases & git.
+                                        <br>
+                                        <br>Worked with many clients from website design to delivery, utilising 3rd parties for design when necessary.
+                                        <br>
+                                        <br>
+                                        </p>
+                                        <div class="card-footer">
+                                                <small class="text-primary">Work With Me</small>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-primary mb-3" style="width:18rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Future</h5>
+                                        <p class="card-text">
+                                            Continued work on knowledge base and gaining additional working knowledge of Javascript and popular libraries.
+                                            <br>
+                                            <br>Moving away from the ease of use of Wordpress and creating responsive, clean websites from scratch will remain primary goal.
+                                            <br>
+                                            <br>Expansion of knowledge of back-end to ultimately become a full-stack developer
+                                            <br>
+                                            <br>
+                                        </p>
+                                        <div class="card-footer">
+                                                <small class="text-primary">Work With Me</small>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function(){
+                
+                        $('.col-4-lg').hover(
+                            // trigger when mouse hover
+                            function(){
+                                $(this).animate({
+                                    marginTop: "-=1%",
+                                },200);
+                            },
+                
+                            // trigger when mouse out
+                            function(){
+                                $(this).animate({
+                                    marginTop: "0%"
+                                },200);
+                            }
+                        );
+                    });
+                </script>
+                
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
